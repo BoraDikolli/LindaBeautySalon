@@ -364,10 +364,10 @@ if (isset($_POST["Common"])) {
 		if (mysqli_num_rows($query) > 0) {
 			//display user cart item with "Ready to checkout" button if user is not login
 			echo '<div class="main ">
-			<div class="table-responsive">
-			<form method="post" action="login_form.php">
+			<div class="table-responsive" style="background-color: #e3d8cc">
+			<form method="post" action="login_form.php" >
 			
-	               <table id="cart" class="table table-hover table-condensed" id="">
+	               <table id="cart" class="table table-hover table-condensed" id="" >
     				<thead>
 						<tr>
 							<th style="width:50%">Product</th>

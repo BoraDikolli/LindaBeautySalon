@@ -226,9 +226,9 @@
 			<div class="container">
 				<!-- row -->
 				<div class="row">
-					<div class="col-md-12">
-						<div class="hot-deal">
-							<ul class="hot-deal-countdown">
+					<div class="col-md-12" style="background-color: #d4c8bc">
+						<div class="hot-deal" >
+							<ul class="hot-deal-countdown" >
 								<li>
 									<div>
 										<h3>02</h3>
