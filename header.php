@@ -62,9 +62,9 @@ session_start();
         #top-header {
               
   
-            background: #870000;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #debeb4;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #190A05, #debeb4);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #190A05, #debeb4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
         }
@@ -122,9 +122,9 @@ session_start();
 			<div id="top-header">
 				<div class="container">
 					<ul class="header-links pull-left">
-						<li><a href="#"><i class="fa fa-phone"></i> +91-9535688928</a></li>
-						<li><a href="#"><i class="fa fa-envelope-o"></i> puneethreddy951@gmail.com</a></li>
-						<li><a href="#"><i class="fa fa-map-marker"></i>Bangalore</a></li>
+						<li><a href="#"><i class="fa fa-phone"></i> +355-698033588</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> lindabeautysalon@gmail.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i>Tirana, Albania</a></li>
 					</ul>
 					<ul class="header-links pull-right">
 						<li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
@@ -208,7 +208,7 @@ session_start();
 						<div class="col-md-3 clearfix">
 							<div class="header-ctn">
 								<!-- Wishlist -->
-								
+
 								<!-- /Wishlist -->
 
 								<!-- Cart -->
