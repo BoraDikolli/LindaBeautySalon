@@ -8,11 +8,11 @@
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
 								<h3 class="footer-title">About Us</h3>
-								<p>This is my Small Database Management System mini project</p>
+								<p>At Linda Beauty Salon, we specialize in premium beauty and wellness treatments designed exclusively for women. From rejuvenating facials and luxurious spa treatments to expert hair care and flawless manicures, our experienced team is dedicated to enhancing your natural beauty. Step into our elegant space and indulge in self-care like never before.</p>
 								<ul class="footer-links">
-									<li><a href="#"><i class="fa fa-map-marker"></i>Bangalore ,Kumbalagodu</a></li>
-									<li><a href="#"><i class="fa fa-phone"></i>+91-9535688928</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i>puneethreddy951@gmail.com</a></li>
+									<li><a href="#"><i class="fa fa-map-marker"></i>Rruga Dervish Hima, Tiranë, Albania</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+355-698033588</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>lindabeautysalon@gmail.com</a></li>
 								</ul>
 							</div>
 						</div>
@@ -25,14 +25,13 @@
 								<li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
 								<li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
 							</ul>
-
 						</div>
 
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
 								<h3 class="footer-title">Categories</h3>
 								<ul class="footer-links">
-									<li><a href="#">Mobiles</a></li>
+									<li><a href="#">Kerastase</a></li>
 									<li><a href="#">Men</a></li>
 									<li><a href="#">Women</a></li>
 									<li><a href="#">Kids</a></li>

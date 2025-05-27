@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "NikolaBarcelona2023$";
+$password = "";
 $db = "lindabeautysalondb";
 
 

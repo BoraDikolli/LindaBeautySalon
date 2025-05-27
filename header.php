@@ -146,9 +146,9 @@ session_start();
 			<div id="top-header">
 				<div class="container">
 					<ul class="header-links pull-left">
-						<li><a href="#"><i class="fa fa-phone"></i> +91-9535688928</a></li>
-						<li><a href="#"><i class="fa fa-envelope-o"></i> puneethreddy951@gmail.com</a></li>
-						<li><a href="#"><i class="fa fa-map-marker"></i>Bangalore</a></li>
+						<li><a href="#"><i class="fa fa-phone"></i> +355-698033588</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> lindabeautysalon@gmail.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i>Tirana, Albania</a></li>
 					</ul>
 					<ul class="header-links pull-right">
 						<li><?php
@@ -231,7 +231,7 @@ session_start();
 						<div class="col-md-3 clearfix">
 							<div class="header-ctn">
 								<!-- Wishlist -->
-								
+
 								<!-- /Wishlist -->
 
 								<!-- Cart -->

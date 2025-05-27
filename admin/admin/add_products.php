@@ -1,17 +1,23 @@
 <?php
 session_start();
-include("../../db.php");
+require_once("../../db.php");
+
+if ( ! isset($con) ) {
+    die('Error: $con is not defined even though we included db.php');
+}
+if ( mysqli_connect_errno() ) {
+    die('MySQL connection failed: ' . mysqli_connect_error());
+}
 
 
 if(isset($_POST['btn_save']))
 {
-$product_name=$_POST['product_name'];
-$details=$_POST['details'];
-$price=$_POST['price'];
-$c_price=$_POST['c_price'];
-$product_type=$_POST['product_type'];
-$brand=$_POST['brand'];
-$tags=$_POST['tags'];
+$product_name = $_POST['product_name'];
+$details = $_POST['details'];
+$price = $_POST['price'];
+$product_type = $_POST['product_type'];
+$brand = $_POST['brand'];
+$tags = $_POST['tags'];
 
 //picture coding
 $picture_name=$_FILES['picture']['name'];
@@ -19,19 +25,30 @@ $picture_type=$_FILES['picture']['type'];
 $picture_tmp_name=$_FILES['picture']['tmp_name'];
 $picture_size=$_FILES['picture']['size'];
 
-if($picture_type=="image/jpeg" || $picture_type=="image/jpg" || $picture_type=="image/png" || $picture_type=="image/gif")
-{
-	if($picture_size<=50000000)
-	
-		$pic_name=time()."_".$picture_name;
-		move_uploaded_file($picture_tmp_name,"../product_images/".$pic_name);
-		
-mysqli_query($con,"insert into products (product_cat, product_brand,product_title,product_price, product_desc, product_image,product_keywords) values ('$product_type','$brand','$product_name','$price','$details','$pic_name','$tags')") or die ("query incorrect");
+$allowed_types = ["image/jpeg", "image/jpg", "image/png", "image/gif"];
+    if (in_array($picture_type, $allowed_types)) {
+        if ($picture_size <= 50000000) {
+            $pic_name = time() . "_" . basename($picture_name);
+            if (move_uploaded_file($picture_tmp_name, "../../product_images/" . $pic_name)) {
+                $stmt = mysqli_prepare($con, "INSERT INTO products (product_cat, product_brand, product_title, product_price, product_desc, product_image, product_keywords) VALUES (?, ?, ?, ?, ?, ?, ?)");
+                mysqli_stmt_bind_param($stmt, "iisdsss", $product_type, $brand, $product_name, $price, $details, $pic_name, $tags);
+                if (mysqli_stmt_execute($stmt)) {
+                    header("location: sumit_form.php?success=1");
+                    exit();
+                } else {
+                    die("Database insert failed: " . mysqli_error($con));
+                }
+            } else {
+                die("Failed to upload image.");
+            }
+        } else {
+            die("Image size should be less than 50MB.");
+        }
+    } else {
+        die("Invalid image type.");
+    }
 
- header("location: sumit_form.php?success=1");
-}
-
-mysqli_close($con);
+    mysqli_close($con);
 }
 include "sidenav.php";
 include "topheader.php";
