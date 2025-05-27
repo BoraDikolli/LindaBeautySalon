@@ -45,26 +45,50 @@ session_start();
 		<![endif]-->
     <style>
         #navigation {
-          background: #FF4E50;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #c7ae97;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right,
+            #e2d4c4,  /* soft highlight */
+            #d6c1ad,  /* lighter beige */
+            #c7ae97,  /* base color */
+            #af977f,  /* slightly darker */
+            #977f69   /* warm shadow */
+            );  /* Chrome 10-25, Safari 5.1-6 */
+
+            background: linear-gradient(to right,
+            #e2d4c4,
+            #d6c1ad,
+            #c7ae97,
+            #af977f,
+            #977f69
+            ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
           
         }
         #header {
-  
-            background: #780206;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #000000;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right,
+            #2b2b2b,   /* soft charcoal */
+            #3c3531,   /* warm black-brown */
+            #4a413c,   /* muted warm shadow */
+            #2a2624,   /* deep espresso */
+            #000000    /* pure black */
+            );  /* Chrome 10-25, Safari 5.1-6 */
 
-  
+            background: linear-gradient(to right,
+            #2b2b2b,
+            #3c3531,
+            #4a413c,
+            #2a2624,
+            #000000
+            ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         }
         #top-header {
               
   
-            background: #870000;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #baa28d;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #b38d6d, #dbc9ba;  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #b38d6d, #dbc9ba); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
         }
@@ -127,7 +151,6 @@ session_start();
 						<li><a href="#"><i class="fa fa-map-marker"></i>Bangalore</a></li>
 					</ul>
 					<ul class="header-links pull-right">
-						<li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
 						<li><?php
                              include "db.php";
                             if(isset($_SESSION["uid"])){
@@ -179,7 +202,7 @@ session_start();
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo">
-								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
+								<font style="font-style:normal; font-size: 33px;color: #c7bbaf ;font-family: serif">
                                         Online Shop
                                     </font>
 									

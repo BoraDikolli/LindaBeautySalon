@@ -2,8 +2,8 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "";
-$db = "onlineshop";
+$password = "NikolaBarcelona2023$";
+$db = "lindabeautysalondb";
 
 
 // Create connection

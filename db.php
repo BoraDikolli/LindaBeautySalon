@@ -2,8 +2,8 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "";
-$db = "lindaBeautySalondb";
+$password = "NikolaBarcelona2023$";
+$db = "lindabeautysalondb";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password,$db);
