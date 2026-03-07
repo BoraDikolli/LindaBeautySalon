@@ -33,7 +33,7 @@ Linda Beauty Salon is a full-featured e-commerce platform that allows customers 
   - Special offers via email
   - Email notifications
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── index.php                 # Main entry point
