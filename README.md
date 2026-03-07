@@ -2,11 +2,11 @@
 
 A modern e-commerce web application for Linda Beauty Salon, built with PHP and featuring a complete shopping experience for beauty products.
 
-## 🎯 Overview
+## Overview
 
 Linda Beauty Salon is a full-featured e-commerce platform that allows customers to browse, purchase, and manage beauty products online. The platform includes user authentication, shopping cart functionality, secure checkout, and order management.
 
-## 🌟 Features
+## Features
 
 - **User Management**
   - User registration and authentication
@@ -78,7 +78,7 @@ Linda Beauty Salon is a full-featured e-commerce platform that allows customers 
 └── LICENSE                  # Project license
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - PHP 5.6 or higher
@@ -106,14 +106,14 @@ Linda Beauty Salon is a full-featured e-commerce platform that allows customers 
 5. **Access the application**
    - Open your browser and navigate to `index.php`
 
-## 💻 Technology Stack
+## Technology Stack
 
 - **Backend:** PHP
 - **Frontend:** HTML, CSS, JavaScript
 - **Database:** MySQL/MariaDB
 - **Payment Integration:** Integrated checkout system
 
-## 🔧 Configuration
+## Configuration
 
 Edit `config.php` to configure:
 - Database connection settings
@@ -121,11 +121,11 @@ Edit `config.php` to configure:
 - Payment settings
 - Email configurations
 
-## 📸 Screenshots
+## Screenshots
 
 Visit the `/screenshot` folder to view application screenshots.
 
-## 📋 Usage
+## Usage
 
 ### For Customers
 1. **Create an Account:** Register via `register_form.php`
@@ -141,35 +141,30 @@ Access the admin panel via `/admin` for:
 - User management
 - Email campaigns
 
-## 📧 Email Features
+## Email Features
 
 - **Newsletter Subscription:** Allow customers to subscribe for updates
 - **Offer Emails:** Send promotional offers to subscribers
 - **Order Confirmations:** Automated order confirmation emails
 
-## 🔒 Security
+## Security
 
 - Secure user authentication
 - Password hashing for user accounts
 - Input validation and sanitization
 - Secure checkout process
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👤 Author
+## Author
 
 **Bora Dikolli**
 
-## 📞 Support
+## Support
 
 For issues, questions, or suggestions, please open an issue on GitHub or contact the repository owner.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ---
 
 **Website:** Available via the custom domain (see CNAME file)
